@@ -1,0 +1,14 @@
+
+.home__section{
+    display:flex;
+    padding: 30px;
+    justify-content:space-evenly;
+    margin-top:30px;
+}
+
+@media only screen and (max-width:720px){
+    .home__section{
+        display:flex;
+        flex-direction: column;
+    }
+}
